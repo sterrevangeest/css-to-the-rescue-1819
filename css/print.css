@@ -1,0 +1,26 @@
+@media print {
+  /* BASE */
+
+  .web {
+    display: none;
+  }
+
+  .article {
+    display: block !important;
+    margin: 4em;
+  }
+
+  img {
+    width: inherit;
+  }
+
+  /* page */
+
+  /* LAYOUT */
+
+  /* MODULE */
+
+  /* STATE */
+
+  /* THEME */
+}

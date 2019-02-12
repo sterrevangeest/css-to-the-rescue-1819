@@ -1,0 +1,82 @@
+/* BASE */
+
+html {
+  margin: 1em;
+}
+
+body {
+  background-color: #f6f3ea;
+  color: #303952;
+  font-family: "futura-pt";
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* LAYOUT */
+
+.l-web {
+  //font-size: 150%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.l-web h1 {
+  font-size: 6em;
+  grid-column: 1/5;
+  grid-row-start: 2;
+}
+
+.l-web a {
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top: 3px solid #303952;
+  border-bottom: 3px solid #303952;
+  color: #303952;
+  font-size: 1.5em;
+  transform: rotate(90deg);
+  grid-column: 2;
+  grid-row: 1;
+  font-weight: 600;
+  line-height: 1rem;
+  max-height: 100%s;
+}
+
+.l-web p {
+  color: orange;
+  font-size: 1.5em;
+  transform: rotate(90deg);
+  grid-column: 4;
+  grid-row: 3;
+}
+
+/* MODULE */
+
+.btn-print {
+  background-color: yellow;
+}
+
+.btn-reset {
+  background-color: pink;
+}
+
+/* STATE */
+
+/* THEME */
