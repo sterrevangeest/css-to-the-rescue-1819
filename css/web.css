@@ -4,13 +4,6 @@
   display: none;
 }
 
-/* :target pseudo class  */
-
-/* html {
-  --color1: #2b3e51;
-  --color2: orange;
-} */
-
 html {
   margin: 1em;
   box-sizing: border-box;
@@ -123,10 +116,6 @@ input {
   max-width: 10em;
   /* max-height: 10em; */
 }
-
-.m-secundaryColor {
-}
-
 .web .command-print {
   padding: 0.3em;
   text-transform: uppercase;
@@ -321,6 +310,7 @@ input {
 #base_546DE5:checked ~ .l-web.web span {
   background-color: #546de5;
 }
+
 #highlight_546DE5:checked ~ .l-web.web #highlight,
 #base_546DE5:checked ~ .l-web.web #base,
 #highlight_546DE5:checked ~ .l-article #highlight,
