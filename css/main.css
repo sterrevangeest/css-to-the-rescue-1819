@@ -1,16 +1,95 @@
 @import "web.css";
-@import "print.css";
+@media print {
+  /* BASE */
+  @page {
+    size: A5;
+    background-color: #f6f3ea;
+  }
 
-/* BASE */
+  img {
+    width: 100%;
+  }
 
-/* LAYOUT */
+  h1,
+  h2,
+  h3 {
+    z-index: -1;
+    position: relative;
+    //mix-blend-mode: difference;
+    transform: rotate(90deg);
+    text-align: right;
+  }
+
+  p {
+    font-weight: 600;
+  }
+
+  sup {
+    color: #f6f3ea;
+    background-color: orange;
+    padding: 0.1em;
+    margin: 0 0.3em;
+    vertical-align: bottom;
+  }
+
+  footer {
+    display: none;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  video {
+    display: none;
+  }
+
+  /* LAYOUT */
+
+  .l-web {
+    display: none;
+  }
+
+  .conclusion {
+    display: none;
+  }
+
+  .reversefootnote {
+    display: none;
+  }
+
+  .l-article {
+    display: block;
+  }
+
+  .l-article div {
+    page-break-after: always;
+    margin: auto;
+    margin-top: 6cm;
+    transform: rotate(-45deg);
+  }
+
+  .l-article {
+    font-size: 1.3em;
+    margin: auto;
+    max-width: 8cm;
+    max-height: 8cm;
+    color: #546de5;
+  }
+}
 
 /* MODULE */
 
 /* STATE */
 
-/* THEME */
-
-.article {
-  display: none;
+a[href^="http"]::after {
+  content: "hallo";
+  content: " (" attr(href) ")";
+  font-size: 1em;
 }
+
+a:visited {
+  color: inherit;
+}
+
+/* THEME */
