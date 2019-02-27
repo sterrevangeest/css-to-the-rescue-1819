@@ -60,6 +60,7 @@ input {
   height: 50vw;
   margin: auto;
   transform: rotate(-45deg);
+  transition: all 10s;
 }
 
 .l-web h1 {
@@ -152,6 +153,11 @@ input {
 }
 
 /* STATE */
+
+.m-rotate:hover ~ .l-web {
+  transition: all 10s;
+  transform: rotate(35955deg);
+}
 
 /* orange */
 

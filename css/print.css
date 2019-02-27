@@ -1,5 +1,6 @@
 @media print {
   /* BASE */
+
   @page {
     size: A5;
     background-color: #f6f3ea;
@@ -7,6 +8,10 @@
 
   img {
     width: 100%;
+  }
+
+  body {
+    background-color: #f6f3ea;
   }
 
   h1,
@@ -69,6 +74,8 @@
     margin: auto;
     margin-top: 6cm;
     transform: rotate(-45deg);
+    height: 100%;
+    width: 100%;
   }
 
   .l-article {
