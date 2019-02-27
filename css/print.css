@@ -46,17 +46,17 @@
     display: none;
   }
 
-  /* LAYOUT */
-
-  .l-web {
-    display: none;
-  }
-
   .conclusion {
     display: none;
   }
 
   .reversefootnote {
+    display: none;
+  }
+
+  /* LAYOUT */
+
+  .l-web {
     display: none;
   }
 
