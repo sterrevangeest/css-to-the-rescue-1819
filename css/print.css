@@ -80,8 +80,6 @@
   }
 }
 
-/* MODULE */
-
 /* STATE */
 
 a[href^="http"]::after {
@@ -93,5 +91,3 @@ a[href^="http"]::after {
 a:visited {
   color: inherit;
 }
-
-/* THEME */
