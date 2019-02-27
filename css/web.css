@@ -1,10 +1,7 @@
 /* BASE */
 
-.l-article {
-  display: none;
-}
-
 html {
+  font-family: "futura-pt";
   margin: 1em;
   box-sizing: border-box;
   overflow-y: hidden;
@@ -15,15 +12,9 @@ html {
 body {
   background-color: #f6f3ea;
   color: #f6f3ea;
-  font-family: "futura-pt";
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 800;
@@ -53,6 +44,10 @@ input {
 
 /* LAYOUT */
 
+.l-article {
+  display: none;
+}
+
 .l-web * {
   margin: 0;
 }
@@ -72,30 +67,9 @@ input {
   grid-row-start: 4;
 }
 
-.l-web .command-print {
-  width: 1.3em;
-  grid-column: 2;
-  grid-row: 1/4;
-  justify-self: end;
-}
-
 .l-web p {
   grid-column: 6;
   grid-row: 5/7;
-}
-
-.l-rotate {
-  writing-mode: vertical-rl;
-  grid-column: 3;
-  grid-row: 5;
-}
-
-.l-rotate span {
-  display: block;
-  width: 3vw;
-  height: 3vw;
-  justify-self: center;
-  padding: 1.5vw;
 }
 
 .l-colors {
@@ -105,7 +79,28 @@ input {
   display: flex;
 }
 
+.l-highlightColors label {
+  color: #f6f3ea;
+  display: inline-block;
+  width: 100em;
+}
+
 /* MODULE */
+
+.m-rotate span {
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  justify-self: center;
+  padding: 1.5vw;
+}
+
+.m-command-print {
+  width: 1.3em;
+  grid-column: 2;
+  grid-row: 1/4;
+  justify-self: end;
+}
 
 .m-highlightColors {
   padding-bottom: 1em;
@@ -114,9 +109,9 @@ input {
 .m-highlightColors label {
   padding: 1em 0;
   max-width: 10em;
-  /* max-height: 10em; */
 }
-.web .command-print {
+
+.m-command-print {
   padding: 0.3em;
   text-transform: uppercase;
   border-right: 0.5vw solid;
@@ -127,22 +122,14 @@ input {
   font-size: 2vw;
 }
 
-.web p {
-  font-size: 1.5em;
-  max-height: 10em;
-  writing-mode: vertical-rl;
-  justify-self: end;
-  font-size: 2vw;
-}
-
-.web .rotate {
+.m-rotate {
   text-transform: uppercase;
   font-size: 2vw;
   font-weight: 600;
   font-size: 1.8vw;
 }
 
-.web .rotate span {
+.m-rotate span {
   /* background-color: inherit; */
   color: #f6f3ea;
   font-size: 2vw;
@@ -150,10 +137,18 @@ input {
   text-align: center;
 }
 
-.l-highlightColors label {
-  color: #f6f3ea;
-  display: inline-block;
-  width: 100em;
+.m-rotate {
+  writing-mode: vertical-rl;
+  grid-column: 3;
+  grid-row: 5;
+}
+
+.web p {
+  font-size: 1.5em;
+  max-height: 10em;
+  writing-mode: vertical-rl;
+  justify-self: end;
+  font-size: 2vw;
 }
 
 /* STATE */
