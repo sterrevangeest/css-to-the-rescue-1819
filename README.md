@@ -2,4 +2,4 @@
 
 # Add Nonsense
 
-![screenshot][screenshot.png]
+![screenshot](screenshot.png)
