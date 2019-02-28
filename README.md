@@ -8,7 +8,7 @@ The article [Add Nonsense](https://exclusive-design.vasilis.nl/add-nonsense/) is
 
 ![screenshot2](screenshot2.png)
 
-## Smacss
+## SMACSS
 
 I have used the SMACSS methodology. SMACCS is more a style guide than a rigid framework.
 

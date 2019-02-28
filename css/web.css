@@ -2,7 +2,7 @@
 
 html {
   font-family: "futura-pt";
-  margin: 1em;
+  margin: 3em;
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -60,7 +60,7 @@ input {
   height: 50vw;
   margin: auto;
   transform: rotate(-45deg);
-  transition: all 10s;
+  transition: rotate 10s;
 }
 
 .l-web h1 {
@@ -131,7 +131,6 @@ input {
 }
 
 .m-rotate span {
-  /* background-color: inherit; */
   color: #f6f3ea;
   font-size: 2vw;
   font-weight: 400;
@@ -155,7 +154,7 @@ input {
 /* STATE */
 
 .m-rotate:hover ~ .l-web {
-  transition: all 10s;
+  transition: rotate 10s;
   transform: rotate(35955deg);
 }
 
