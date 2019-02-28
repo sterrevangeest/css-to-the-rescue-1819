@@ -13,4 +13,4 @@ The article [Add Nonsense](https://exclusive-design.vasilis.nl/add-nonsense/) is
 ## Restrictions
 
 - [x] Two Colors
-- [] ?
+- [ ] ?
