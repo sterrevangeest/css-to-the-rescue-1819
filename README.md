@@ -10,6 +10,8 @@ The article [Add Nonsense](https://exclusive-design.vasilis.nl/add-nonsense/) is
 
 ## Smacss
 
+I have used the SMACSS methodology. SMACCS is more a style guide than a rigid framework.
+
 ## Restrictions
 
 - [x] Two Colors
